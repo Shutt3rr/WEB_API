@@ -1,5 +1,6 @@
 import requests 
 from PIL import Image
+from io import BytesIO
 
 def get_dog():
   url = "https://api.thedogapi.com/v1/images/search"
